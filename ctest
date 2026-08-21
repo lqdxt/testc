@@ -1,0 +1,6 @@
+#include <lua.hpp>
+
+extern "C" int test(lua_State* L) {
+    lua_pushstring(L, "test from c backend");
+    return 1;
+}
