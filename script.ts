@@ -1,2 +1,4 @@
-const value: number = 10;
-return value;
+let getValue = (): number => {
+    return 10;
+};
+return getValue();
